@@ -18,22 +18,20 @@ const features = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Understanding Domain Driven Design',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This is a proof of concept while going through this test.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Also has an APP',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The android app was written with React-Native
       </>
     ),
   },
@@ -73,6 +71,14 @@ function Home() {
               )}
               to={useBaseUrl('docs/')}>
               Get Started
+            </Link>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/')}>
+              Download the Android APP
             </Link>
           </div>
         </div>
